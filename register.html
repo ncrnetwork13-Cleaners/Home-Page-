@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contractor Signup | The Cleaning Contractor Network</title>
+<link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html">The Cleaning Contractor Network</a>
+  </div>
+</header>
+
+<main class="container section">
+<h1>Subcontractor Application</h1>
+<p class="muted">$49/month basic listing • Pending admin approval</p>
+
+<form class="card form" id="subForm">
+  <label class="label">Company Name *</label>
+  <input class="input" name="company" required>
+
+  <label class="label">Contact Name *</label>
+  <input class="input" name="contact_name" required>
+
+  <label class="label">Email *</label>
+  <input class="input" name="email" type="email" required>
+
+  <label class="label">Phone *</label>
+  <input class="input" name="phone" required>
+
+  <label class="label">City / State *</label>
+  <input class="input" name="city_state" required>
+
+  <label class="label">ZIP Code *</label>
+  <input class="input" name="zip" required>
+
+  <label class="label">Services Offered</label>
+  <textarea class="input" name="services" rows="4"></textarea>
+
+  <label><input type="checkbox" required> I understand this is a directory listing only.</label>
+
+  <button class="btn" type="submit">Submit Application</button>
+  <span id="msg" class="muted"></span>
+</form>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> The Cleaning Contractor Network</span>
+    <span><a href="mailto:ncrnetwork13@gmail.com">ncrnetwork13@gmail.com</a></span>
+  </div>
+</footer>
+
+<script src="./assets/config.js"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>
